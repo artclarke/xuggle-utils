@@ -1,5 +1,11 @@
 Welcome to Xuggle-Utils
 
+When using GIT, make sure you clone and update submodules:
+
+ git clone git@github.com:xuggle/xuggle-utils.git
+ git submodule init
+ git submodule update
+
 = Licensing =
 
 Xuggle-Utils is licensed under the Lesser GNU Public License.
