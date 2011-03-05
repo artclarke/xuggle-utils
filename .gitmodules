@@ -1,0 +1,3 @@
+[submodule "mk/buildtools"]
+	path = mk/buildtools
+	url = git@github.com:xuggle/xuggle-build.git
