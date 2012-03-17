@@ -1,5 +1,1 @@
-/build
-/dist
-/ant.out
-/fixtures
-/com.*
+/target

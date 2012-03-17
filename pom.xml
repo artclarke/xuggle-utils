@@ -45,15 +45,13 @@
     </developer>
   </developers>
   <scm>
-    <url>http://xuggle.googlecode.com/svn/trunk/java/xuggle-utils</url>
+    <url>http://github.com/xuggle/xuggle-utils</url>
   </scm>
   <organization>
     <name>Xuggle</name>
     <url>www.xuggle.com</url>
   </organization>
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test/src</testSourceDirectory>
     <plugins>
 
       <!-- enable java 6 -->
@@ -106,27 +104,6 @@
             -nodefillcolor grey80 -nodefontsize 15
             -nodefontcolor grey20
           </additionalparam>
-          <!--
-          <links>
-            <link href="http://java.sun.com/${javadoc.loc}/docs/api" />
-            <link href="http://mina.apache.org/report/1.1/apidocs" />
-            <link
-              href="http://static.springframework.org/spring/docs/2.0.x/api" />
-            <link href="http://www.slf4j.org/apidocs/" />
-            <link href="http://logback.qos.ch/apidocs/" />
-            <link href="http://jetm.void.fm/api/" />
-            <link
-              href="http://www.cs.umd.edu/projects/PL/multithreadedtc/docs/" />
-            <link
-              href="http://build.xuggle.com/view/Stable/job/red5_jdk6_stable/javadoc/" />
-            <link
-              href="http://build.xuggle.com/job/xuggle_java_utils_jdk5_i386_ubuntu/javadoc/java/api/" />
-            <link
-              href="http://build.xuggle.com/view/Stable/job/xuggler_jdk5_stable/javadoc/java/api/" />
-            <link
-              href="http://build.xuggle.com/job/xuggle_java_xuggler_red5_jdk6_i386_ubuntu/javadoc/java/api/" />
-          </links>
-          -->
         </configuration>
       </plugin>
 
